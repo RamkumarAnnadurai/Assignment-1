@@ -5,7 +5,7 @@ class Print
     {
         for(j=0;j<n;j++)
             {
-                if(j==n-1)
+                if(i==0||i==n-1||j==n/2)
                     System.out.print("*");
                 else
                     System.out.print(" ");    
